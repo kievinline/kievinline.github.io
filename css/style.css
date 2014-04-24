@@ -1,1 +1,24 @@
-
+      body {
+        padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      
+      html, body, .map_canvas iframe {
+	    position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+      }
+      
+      .btnposition {
+        top: 50px !important;
+        left: 315px !important;
+        position: absolute;
+      }
+      
+      .maptextposition {
+        bottom: 9px !important;
+        right: 20px !important;
+        position: absolute;
+      }
