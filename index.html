@@ -43,15 +43,18 @@
     </div>
     
     <!-- AddThis Button BEGIN -->
-    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="right:30px;top:70px;">
-    <a class="addthis_button_vk"></a>
-    <a class="addthis_button_facebook"></a>
-    <a class="addthis_button_twitter"></a>
-    <a class="addthis_button_google_plusone_share"></a>
-    <a class="addthis_button_compact"></a>
-    </div>
-    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-534c0cdd717c0bea"></script>
+<div class="sharebtnposition">
+<script type="text/javascript">(function() {
+  if (window.pluso)if (typeof window.pluso.start == "function") return;
+  if (window.ifpluso==undefined) { window.ifpluso = 1;
+    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+    var h=d[g]('body')[0];
+    h.appendChild(s);
+  }})();</script>
+<div class="pluso" data-background="transparent" data-options="medium,square,line,vertical,counter,theme=04" data-services="vkontakte,facebook,twitter,google"></div>  
+</div>
     <!-- AddThis Button END -->
   <div class="btnposition"> 
   <a href="https://docs.google.com/forms/d/1Z6dklIjPQ3y_2OitesJE-SwxGdaPRuT6lhxIVLVctP8/viewform" class="btn" type="button">Добавить место</a>
