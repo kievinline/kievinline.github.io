@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8">
+    <title>Карта мест для катания на роликах в Киеве</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="description" content="">  
+    <meta name="author" content="">  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+    <style>
+      body {
+        padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      
+      html, body, .map_canvas iframe {
+	    position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+      }
+      
+      .btnposition {
+        top: 50px !important;
+        left: 315px !important;
+        position: absolute;
+      }
+    </style>
+    
+    <!--[if lt IE 9]>    
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>&nbsp;
+          </a>
+          <a class="brand" href="#">Карта мест для катания на роликах в Киеве</a>
+          <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">Основные споты</a></li>
+            <li><a href="downhill.html">Даунхиллы</a></li>
+            <li><a href="http://rollerportal.com/forum/index.php?">RollerPortal.com</a></li>
+            <li><a>       </a></li>
+          </ul>
+        </div>
+    <!--/.nav-collapse --> </div>
+      </div>
+    </div>
+  <!-- <div class="container"> -->
+    <div class="map_canvas">
+      <iframe src="https://mapsengine.google.com/map/embed?mid=zEKw7BUQl4gY.kkGMKe4h4nAQ" height="650 px" width="99.6%"></iframe>
+    </div>
+    
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="right:30px;top:70px;">
+    <a class="addthis_button_vk"></a>
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_google_plusone_share"></a>
+    <a class="addthis_button_compact"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-534c0cdd717c0bea"></script>
+    <!-- AddThis Button END -->
+  <div class="btnposition"> 
+  <a href="https://docs.google.com/forms/d/1Z6dklIjPQ3y_2OitesJE-SwxGdaPRuT6lhxIVLVctP8/viewform" class="btn" type="button">Добавить место</a>
+</div>
+  </body>
+</html>
