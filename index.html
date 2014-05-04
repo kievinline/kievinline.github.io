@@ -8,7 +8,7 @@
     <meta name="author" content="">  
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-  
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <!--[if lt IE 9]>    
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,7 +38,24 @@
           <div class="nav-collapse">
           <ul class="nav">
             <li class="active"><a href="#">Основные споты</a></li>
-            <li><a href="downhill.html">Даунхиллы</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                   Даунхиллы
+                   <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                   <li><a href="downhill.html"><i class="fa fa-map-marker fa-fw"></i> Карта даунхиллов</a></li>
+                   <li class="divider"></li>
+                <li><a href="http://rollerportal.com/forum/index.php?showtopic=249"><i class="fa fa-file-text-o fa-fw"></i> Тема на RollerPortal.com</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#">Узнать болше про даунхилл:</a></li>
+                   <li><a href="http://vk.com/club29295154"><i class="fa fa-vk fa-fw"></i> Группа KIDT у VK</a></li>
+                   <li><a href="http://www.facebook.com/groups/KievIDTeam/"><i class="fa fa-facebook fa-fw"></i> Группа KIDT у Facebook</a></li>
+                   <li><a href="http://www.youtube.com/user/KievIDTeam"><i class="fa fa-youtube-play fa-fw"></i> Канал YouTube</a></li>
+                   <li class="divider"></li>
+                   <li><a href="http://www.inlinedownhill.com/"><i class="fa fa-road fa-fw"></i> InlineDownhill.com</a></li>
+                </ul>
+             </li>
             <li><a href="http://rollerportal.com/forum/index.php?">RollerPortal.com</a></li>
             <li><a>       </a></li>
           </ul>
@@ -69,5 +86,8 @@
   <a href="https://docs.google.com/forms/d/1QQVFwCdotxqcecc1k0BUzj-YqqYrzR3YyUe3aufnEUg/viewform" class="btn" type="button">Добавить место</a>
 </div>
 <div class="maptextposition"><p>*для отображения карты залогиньтесь в Google</p></div>
-  </body>
+  
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
