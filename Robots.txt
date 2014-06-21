@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://kievinline.github.io/sitemap.xml
