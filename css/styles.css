@@ -1,0 +1,60 @@
+body {
+  padding-top: 0px;
+}
+
+.navbar-nav > li > a {
+    padding-top:5px !important; 
+    padding-bottom:5px !important;
+}
+
+.navbar-brand { 
+    padding-top:5px !important; 
+    padding-bottom:5px !important;
+}
+
+.navbar {
+    min-height:30px !important
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.modal .modal-body {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.btnposition {
+    top: 50px !important;
+    left: 315px !important;
+    position: absolute;
+}
+
+.maptextposition {
+    bottom: 13px !important;
+    right: 60px !important;
+    position: absolute;
+    font-size: 10pt;
+}
+
+.sharebtnposition {
+    top: 60px !important;
+    right: 20px !important;
+    position: absolute;
+}
+
+.hidden_text{
+    font-size: 1pt;
+    line-height: 1;
+}
+
+
+html, body, .map_canvas iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
