@@ -13,7 +13,8 @@ body {
 }
 
 .navbar {
-    min-height:30px !important
+    padding-top:5px !important; 
+    min-height:40px !important
 }
 
 .navbar .navbar-brand {
@@ -39,7 +40,7 @@ body {
 }
 
 .sharebtnposition {
-    top: 60px !important;
+    top: 100px !important;
     right: 20px !important;
     position: absolute;
 }
